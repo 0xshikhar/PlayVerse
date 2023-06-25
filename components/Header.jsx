@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import Router, { useRouter } from 'next/router'
-import React, { useState } from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import Router, { useRouter } from "next/router";
+import React, { useState } from "react";
 // import tatrixLogo from '../assets/tatrixLogo.png'
-import { AiOutlineSearch } from 'react-icons/ai'
-import { CgProfile } from 'react-icons/cg'
-import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
-import Wallet from './petraWallet/wallet'
+import { AiOutlineSearch } from "react-icons/ai";
+import { CgProfile } from "react-icons/cg";
+import { MdOutlineAccountBalanceWallet } from "react-icons/md";
+import Wallet from "./petraWallet/wallet";
 
 const style = {
     wrapper: `bg-black w-screen px-[1.2rem] py-[0.8rem] flex `,
@@ -18,19 +18,22 @@ const style = {
     headerItems: ` flex items-center align-right justify-end`,
     headerItem: `text-white px-4 font-bold text-[#c8cacd] hover:text-white cursor-pointer`,
     headerIcon: `text-[#8a939b] text-3xl font-black px-4 hover:text-white cursor-pointer`,
-}
+};
 
 const Header = () => {
     const router = useRouter();
-    const [searchQuery, setSearchQuery] = useState('');
-
+    const [searchQuery, setSearchQuery] = useState("");
 
     return (
         <div className={style.wrapper}>
             <Link href="/">
                 <div className={style.logoContainer}>
                     {/* <Image src={mantleSeaLogo} height={80} width={200} alt="mantle logo" /> */}
-                    <div href="/" target={"_blank"} className="text-[32px] text-white font-serif">
+                    <div
+                        href="/"
+                        target={"_blank"}
+                        className="text-[32px] text-white font-serif"
+                    >
                         TATRIX
                     </div>
                     <div className={style.logoText}></div>
@@ -42,36 +45,63 @@ const Header = () => {
                 <div className={style.searchIcon}>
                     <AiOutlineSearch />
                 </div>
-                <input className={style.searchInput} type="text" value={searchQuery} placeholder="Enter Your Streaming ID"
+                <input
+                    className={style.searchInput}
+                    type="text"
+                    value={searchQuery}
+                    placeholder="Enter Your Streaming ID"
                 //  onKeyPress={(e) => {
                 // if (e.key === 'Enter')
                 //     console.log(searchQuery)
                 // }}
                 />
-                <button onClick={() => {
-                    router.push(`/streaming/${searchQuery}`);
-                }} className="text-white px-2">Search</button>
+                <button
+                    onClick={() => {
+                        router.push(`/streaming/${searchQuery}`);
+                    }}
+                    className="text-white px-2"
+                >
+                    Search
+                </button>
             </div>
 
             <div className={style.headerItems}>
                 <Link href="/streaming">
                     {/* <div className={style.headerItem}> Streaming </div> */}
                 </Link>
-                <div className={style.headerItem}> Tournament </div>
-                <div className={style.headerItem} onClick={() => { router.push('/nft') }}> Mint  NFT</div>
-                <div className={style.headerIcon} onClick={() => { router.push(`/profile/${address}`) }}>
+                <div
+                    className={style.headerItem}
+                    onClick={() => {
+                        router.push("/tournament");
+                    }}
+                >
+                    Tournament
+                </div>
+                <div
+                    className={style.headerItem}
+                    onClick={() => {
+                        router.push("/nft");
+                    }}
+                >
+                    Mint NFT
+                </div>
+                <div
+                    className={style.headerIcon}
+                    onClick={() => {
+                        router.push(`/profile/${address}`);
+                    }}
+                >
                     <CgProfile />
                 </div>
                 <div className={style.headerIcon}>
                     <MdOutlineAccountBalanceWallet />
                 </div>
                 <div>
-
                     <Wallet />
                 </div>
             </div>
-        </div >
-    )
-}
+        </div>
+    );
+};
 
-export default Header
+export default Header;

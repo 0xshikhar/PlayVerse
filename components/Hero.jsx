@@ -24,7 +24,6 @@ const Hero = () => {
     return (
         <div className={style.wrapper}>
             <div className={style.container}>
-
                 <div className={style.contentWrapper}>
                     <div className={style.copyContainer}>
                         <div className='flex'>

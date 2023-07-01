@@ -1,8 +1,14 @@
 <p align="center">
   <a href="" rel="noopener">
+<<<<<<< HEAD
 <img src= "https://github.com/0xshikhar/PlayVerse/raw/master/public/images/tatrixLogo.png" width="300" height="250"></a>
   
                      PlayVerse :  A Web3 GameFi Engagement Platform, An Aptos Initiative 
+=======
+<img src="https://github.com/0xshikhar/PlayVerse/raw/master/public/images/playVerseLogo.png"></a>
+  
+                     PlayVerse :  A Web3 Game Streaming and Community Tournament Platform 
+>>>>>>> f0b775a (readme.md updated)
 
 </p>
   
@@ -27,6 +33,7 @@ PlayVerse's vision is to create an immersive, impartial and inclusive ecosystem 
 
 ## 💡 Idea / Solution <a name = "idea"></a>
 
+<<<<<<< HEAD
 PlayVerse  is an interactive online gaming and learning platform that provides live gaming tutorials and tournaments for games built on the Aptos blockchain.
 
 The next evolutionary step is towards the Gamefi streaming platform. Create a sustainable ecosystem running on blockchain where game publishers, streamers and the gamer community all benefit from the contribution.
@@ -36,6 +43,11 @@ We empower streamers by eliminating high commission rates, eradicating arbitrary
 
  ## Demo <a name = "demo"></a>
 Sharing soon
+=======
+The growth of the gaming community has heightened the need for solutions to these challenges. To address this, PlayVerse was conceived as a platform that combines the best aspects of entertainment, skill and decentralized finance (DeFi), bringing together gamers, GameFi projects, and guilds through streaming.
+
+ PlayVerse is a web3 Game Streaming and Community Tournament Platform that fosters a dynamic and sustainable economy for games and players. An innovative blockchain initiative that addresses the challenges faced by the GameFi sector by introducing a game live streaming platform with gated experiences, and seamless community tournament organization.
+>>>>>>> f0b775a (readme.md updated)
 
 
 

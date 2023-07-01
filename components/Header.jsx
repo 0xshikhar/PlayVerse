@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import Router, { useRouter } from "next/router";
 import React, { useState } from "react";
+<<<<<<< HEAD
 // import PlayVerseLogo from '../assets/PlayVerseLogo.png'
+=======
+>>>>>>> f0b775a (readme.md updated)
 import { AiOutlineSearch } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
@@ -39,7 +42,6 @@ const Header = () => {
                     <div className={style.logoText}></div>
                 </div>
             </Link>
-
             {/* search bar to search streams */}
             <div className={style.searchBar}>
                 <div className={style.searchIcon}>

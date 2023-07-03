@@ -119,9 +119,9 @@ const Tournament = () => {
         <div className="grid mb-0 pt-5 pb-5 mt-0 md:mb-10 md:grid-cols-2 ">
           <figure className="flex flex-col pt-10 ">
 
-            <div className="text-left align-left w-[550px] p-8 pl-[100px]">
+            <div className="text-left align-left w-[750px] p-8 pl-[100px]">
               <div className="mb-2  bg-gradient-to-r from-[#fff] via-[#fff]/80 to-[#9d9ea1]/50 bg-clip-text 
-                            text-transparent font-bold font-Agda text-[80px] uppercase md:max-w-5xl max-w-[575px]">
+                            text-transparent font-bold font-Agda text-[80px] uppercase md:max-w-4xl max-w-[575px]">
                 Tournament Generator
               </div>
               <p className='text-white pb-10'>
@@ -139,7 +139,7 @@ const Tournament = () => {
           </figure>
 
           <figure className="flex flex-col items-center justify-center pt-10 pr-20 ">
-            <div className="text-center px-[50px] align-middle w-[700px] h-[650px] p-8 bg-[#202020] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="text-center px-[50px] align-middle w-[650px] h-[650px] p-8 bg-[#202020] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <form onSubmit={onFormSubmit}>
                 <div className=" flex flex-col text-left mb-6 mt-6">
                   <label

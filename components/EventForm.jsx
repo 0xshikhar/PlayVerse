@@ -4,7 +4,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useRouter } from "next/router";
 
-const Eventform = () => {
+const EventForm = () => {
     const [eventName, setEventName] = useState("");
     const [eventDescription, setEventDescription] = useState("");
     const [eventImage, setEventImage] = useState("");
@@ -165,4 +165,4 @@ const Eventform = () => {
     );
 };
 
-export default Eventform;
+export default EventForm;

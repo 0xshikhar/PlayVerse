@@ -9,9 +9,7 @@ const explore = () => {
             <figure className="flex flex-col items-center justify-center pt-10 pb-10 ">
                 <div className="rounded-xl bg-[url('https://shikhar.xyz/wp-content/uploads/2023/06/eventPage.png')] before:bg-center before:opacity-0 ">
                     <div className="text-left pb-10 align-middle min-w-[1100px] h-[300px] pl-10 p-5 dark:bg-gray-800 dark:border-gray-700">
-                        <div
-                            className=" text-white font-bold font-Agda text-[80px] uppercase max-w-[575px]"
-                        >
+                        <div className=" text-white font-Agda text-[70px] uppercase max-w-[650px]">
                             Explore Event
                         </div>
                         <p className="text-white font-Outfit font-light pb-9">

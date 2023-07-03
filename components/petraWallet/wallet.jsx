@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react'
+import { BsArrowRight } from 'react-icons/bs';
 
 const Wallet = () => {
     const [petraWallet, setPetraWallet] = useState();
@@ -105,8 +106,12 @@ const Wallet = () => {
                     ? () => disconnect()
                     : () => connect()
             }
-            className="text-white">
-            {walletStates ? 'Disconnect' : " Connect Wallet"}
+            className="text-black">
+            {walletStates ? 'Disconnect' : < div className='flex '>
+                Connect Wallet
+                <BsArrowRight className='mt-1 ml-2' />
+            </div>
+            }
         </button>
     )
 }

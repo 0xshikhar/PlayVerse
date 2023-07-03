@@ -7,8 +7,8 @@ const style = {
     container: `before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://shikhar.xyz/wp-content/uploads/2023/06/hero.png')] before:bg-center before:opacity-100 `,
     contentWrapper: `h-screen relative justify-center flex-wrap items-center`,
     copyContainer: `p-10 pl-[100px] pt-[100px] w-3/5`,
-    title: `relative text-white uppercase text-[80px] font-Agda font-semibold mb-[2.5rem] `,
-    description: `flex uppercase text-[#cccccc] container-[400px] text-3xl font-Outfit mt-[0.8rem] mb-[.5rem]`,
+    title: `relative text-white text-[80px] font-Agda mb-[2.5rem] `,
+    description: `flex text-[#cccccc] container-[400px] text-3xl font-Outfit mt-[0.8rem] mb-[.5rem]`,
     ctaContainer: `flex`,
     accentedButton: ` flex relative text-lg font-semibold px-12 text-black py-4 bg-white  mr-5 text-black hover:bg-[#98ee2c] cursor-pointer`,
     button: `flex relative text-lg font-semibold px-12 py-4 bg-[#98ee2c] mr-5 text-black hover:bg-[#f0f0f0] cursor-pointer`,
@@ -29,7 +29,7 @@ const Hero = () => {
                         <div className='flex'>
                             <div className={style.description}>Introducing
                             </div>
-                            <div className='px-2 text-[#98ee2c] mt-[0.8rem] mb-[.5rem] text-3xl font-extrabold '>
+                            <div className='px-2 text-[#98ee2c] mt-[0.8rem] mb-[.5rem] font-bold text-3xl font-serif '>
                                 PlayVerse
                             </div>
                         </div>

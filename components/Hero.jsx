@@ -31,7 +31,7 @@ const Hero = () => {
                             <div className={style.description}>Introducing
                             </div>
                             <div className='px-2 text-[#98ee2c] mt-[0.8rem] mb-[.5rem] text-3xl font-extrabold '>
-                                TATRIX
+                                PlayVerse
                             </div>
                         </div>
 

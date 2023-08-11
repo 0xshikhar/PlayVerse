@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Router, { useRouter } from 'next/router'
 import React, { useState } from 'react'
-// import tatrixLogo from '../assets/tatrixLogo.png'
+// import logo from '../assets/Logo.png'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
@@ -31,7 +31,7 @@ export default function Navbar() {
                 <div className={style.logoContainer}>
                     {/* <Image src={mantleSeaLogo} height={80} width={200} alt="mantle logo" /> */}
                     <div href="/" target={"_blank"} className="text-[32px] text-white font-serif">
-                        TATRIX
+                        PlayVerse
                     </div>
                     <div className={style.logoText}></div>
                 </div>
